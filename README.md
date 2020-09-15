@@ -1,1 +1,1 @@
-# git-flow
+# mvn-git-flow
