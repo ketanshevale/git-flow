@@ -5,7 +5,7 @@
 /.factorypath
 /.classpath
 /.idea/*
-
+*/*.iml
 
 # Created by https://www.gitignore.io/api/java,maven,eclipse,java-web,code-java,intellij+all
 
@@ -106,6 +106,8 @@ local.properties
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
+.idea/git-flow.iml
+.idea/workspace.xml
 
 # Gradle
 .idea/**/gradle.xml
