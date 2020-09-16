@@ -6,7 +6,7 @@
 
   <groupId>org.javadevjournal</groupId>
   <artifactId>git-flow</artifactId>
-  <version>1.0.0-test-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>git-flow</name>
