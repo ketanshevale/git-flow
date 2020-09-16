@@ -8,8 +8,8 @@
   <artifactId>git-flow</artifactId>
   <version>1.0.0-RC2-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <name>${project.artifactId}-${project.version}</name>
 
-  <name>git-flow</name>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
