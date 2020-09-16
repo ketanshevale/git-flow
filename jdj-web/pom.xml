@@ -5,12 +5,11 @@
 	<parent>
 		<groupId>org.javadevjournal</groupId>
 		<artifactId>git-flow</artifactId>
-		<version>1.0.0-RC1</version>
+		<version>1.0.0-RC2</version>
 	</parent>
-	<groupId>com.javadevjournal</groupId>
 	<artifactId>jdj-web</artifactId>
-	<version>1.0.0-RC1</version>
-	<name>jdj-web</name>
+	<packaging>jar</packaging>
+	<name>${project.artifactId}-${project.version}</name>
 
 	<dependencies>
 		<dependency>
@@ -18,9 +17,9 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.javadevjournal</groupId>
+			<groupId>org.javadevjournal</groupId>
 			<artifactId>jdj-core</artifactId>
-			<version>1.0.0-RC1</version>
+			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
 
