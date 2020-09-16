@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.javadevjournal</groupId>
 	<artifactId>jdj-core</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>jdj-core</name>
 	<description>Core module for our multi module Spring Boot application</description>
 </project>
