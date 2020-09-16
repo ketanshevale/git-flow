@@ -4,14 +4,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.javadevjournal</groupId>
-		<artifactId>spring-boot-multi-module-project</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<artifactId>git-flow</artifactId>
+		<version>1.0.0-RC1</version>
 	</parent>
 	<groupId>com.javadevjournal</groupId>
 	<artifactId>jdj-web</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-RC1</version>
 	<name>jdj-web</name>
-	<description>Web module for our multi module Spring Boot application</description>
 
 	<dependencies>
 		<dependency>
@@ -21,18 +20,8 @@
 		<dependency>
 			<groupId>com.javadevjournal</groupId>
 			<artifactId>jdj-core</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>1.0.0-RC1</version>
 		</dependency>
 	</dependencies>
-	<build>
-		<!-- This plugin is optional if you like want to provide feature to let user build individual modules as well-->
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-		<finalName>javadev-web</finalName>
-	</build>
 
 </project>
