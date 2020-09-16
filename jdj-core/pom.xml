@@ -7,9 +7,7 @@
 		<artifactId>git-flow</artifactId>
 		<version>1.0.0-RC2-PE-1234-SNAPSHOT</version>
 	</parent>
-<!--	<groupId>com.javadevjournal</groupId>-->
 	<artifactId>jdj-core</artifactId>
-<!--	<version>1.0.0-RC2-SNAPSHOT</version>-->
 
 	<packaging>jar</packaging>
 	<name>${project.artifactId}-${project.version}</name>
