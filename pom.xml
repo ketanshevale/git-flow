@@ -46,6 +46,11 @@
     <pluginManagement>
       <plugins>
         <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>3.0.0-M1</version>
+        </plugin>
+        <plugin>
           <groupId>com.amashchenko.maven.plugin</groupId>
           <artifactId>gitflow-maven-plugin</artifactId>
           <version>1.14.0</version>
@@ -179,5 +184,13 @@
 <!--      </plugin>-->
     </plugins>
   </build>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>labcorp-nexus</id>
+      <name>LabCorp internal Nexus Snapshots Repository</name>
+      <url>http://nexus.labcorp.com/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 
 </project>
